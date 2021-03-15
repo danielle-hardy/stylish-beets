@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab;
+  font-family: 'PT Serif', serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+figcaption {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: 'PT Serif', serif;
+}
