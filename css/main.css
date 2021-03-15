@@ -19,7 +19,7 @@ figure {
 }
 
 figcaption {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-style: italic;
   font-family: 'PT Serif', serif;
 }
@@ -27,4 +27,15 @@ figcaption {
 h1, h2 {
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
+  font-size: 1.5rem;
+}
+
+nav {
+  font-family: "PT Sans" sans-serif;
+  font-size: 1.125rem;
+  color: #8f2440;
+}
+
+nav ol {
+  list-style-type: none;
 }
