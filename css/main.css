@@ -2,8 +2,6 @@ html {
   box-sizing: border-box;
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
-  font-weight: normal;
-  font-size: 1.125rem;
   line-height: 1.5;
   color: #222;
 }
@@ -18,11 +16,12 @@ img {
 
 figure {
   padding: 0;
-  margin: 0;
+  margin: 0 2.5rem;
+  text-align: center;
 }
 
 figcaption {
-  font-size: 1.125rem;
+  font-size: .8rem;
   font-style: italic;
   font-family: "PT Serif", serif;
 }
@@ -31,6 +30,10 @@ h1, h2 {
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
   font-size: 1.5rem;
+}
+
+h1 i {
+  font-style: italic;
 }
 
 nav {
@@ -64,8 +67,14 @@ a:hover {
 
 .germination {
   font-family: "PT Serif", serif;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: bold;
+}
+
+q .bsg {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-style: italic;
 }
 
 blockquote {
@@ -91,4 +100,17 @@ blockquote cite {
 .serving {
   font-style: italic;
   font-family: "PT Serif", serif;
+}
+
+.nutrition dt {
+  font-weight: bold;
+  font-family: "PT Serif", serif;
+}
+
+.tags {
+  list-style-type: circle;
+}
+
+b {
+  font-weight: bold;
 }
