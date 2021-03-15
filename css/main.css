@@ -34,6 +34,7 @@ h1, h2 {
 
 h1 i {
   font-style: italic;
+  font-size: 1.125rem
 }
 
 nav {
@@ -109,6 +110,7 @@ blockquote cite {
 
 .tags {
   list-style-type: circle;
+  font-size: .8rem;
 }
 
 b {
